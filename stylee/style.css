@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero{
+   height: 920px;
+   width: 1920px;
+   background-image: linear-gradient(150deg,rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   opacity: 0.9;
+
+
+
+
+}
+
+
+
+#hero .hero-section{
+
+/* Frame 7 */
+position: absolute;
+width: 1023px;
+height: 393px;
+left: 448px;
+right: 449px;
+top: 264px;
+bottom: 262px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+
+    
+
+}
+
+
+#hero .hero-section .savor{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+#hero .hero-section h1{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+#hero .hero-section p{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+
+.btn{
+    /* Frame 6 */
+position: static;
+width: 279px;
+height: 66px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 32px 21px 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+    border-radius: 8px;
+
+background: rgb(82, 195, 3);
+font-size: 20px;
+border-style: solid;
+color: aliceblue;
+border: none;
+
+}
